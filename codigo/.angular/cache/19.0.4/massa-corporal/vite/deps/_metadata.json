@@ -1,0 +1,67 @@
+{
+  "hash": "b8e4965d",
+  "configHash": "7032fa3d",
+  "lockfileHash": "c7edd42b",
+  "browserHash": "5afac1a5",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "e1633432",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "378dac34",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "bf83272c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7fb7fd7e",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "37eeff65",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../../../../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "efd126e0",
+      "needsInterop": false
+    },
+    "three/examples/jsm/loaders/PLYLoader.js": {
+      "src": "../../../../../../node_modules/three/examples/jsm/loaders/PLYLoader.js",
+      "file": "three_examples_jsm_loaders_PLYLoader__js.js",
+      "fileHash": "e75bb9ec",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YWJGVDZK": {
+      "file": "chunk-YWJGVDZK.js"
+    },
+    "chunk-PRA7OJ74": {
+      "file": "chunk-PRA7OJ74.js"
+    },
+    "chunk-H2W76SSL": {
+      "file": "chunk-H2W76SSL.js"
+    },
+    "chunk-J5ZXEYO6": {
+      "file": "chunk-J5ZXEYO6.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}

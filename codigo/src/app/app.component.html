@@ -1,0 +1,49 @@
+<section class="scanner">
+  <div class="parte-esquerda">
+    <h1>Scanner 3D</h1>
+    <app-modelo></app-modelo>
+  </div>
+  <div class="parte-direita">
+    <h1>Questionário</h1>
+    <div class="form-item">
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" [(ngModel)]="nome" name="nome">
+    </div>
+
+    <div class="form-item">
+      <span>Sexo:</span>
+      <div class="radio-sexo">
+        <input type="radio" id="feminino" [(ngModel)]="sexo" name="sexo" value="Feminino">
+        <label class="mr-15" for="html">Feminino</label><br>
+        <input type="radio" id="masculino" [(ngModel)]="sexo" name="sexo" value="Masculino">
+        <label for="css">Masculino</label><br>
+      </div>
+    </div>
+
+    <div class="form-item">
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" [(ngModel)]="idade" name="idade">
+    </div>
+
+    <div class="form-item">
+      <label for="etnia">Etnia:</label>
+      <input type="text" id="etnia" [(ngModel)]="etnia" name="etnia">
+    </div>
+
+    <div class="form-item">
+      <label for="altura">Altura (cm):</label>
+      <input type="number" id="altura" [(ngModel)]="altura" name="altura">
+    </div>
+
+    <div class="form-item">
+      <label for="peso">Peso (g):</label>
+      <input type="number" id="peso" [(ngModel)]="peso" name="peso">
+    </div>
+
+    <button (click)="calcular()">Calcular</button>
+
+    <strong>Volume Pulmão: {{ volumePulmao | number:'1.1-1' }}</strong>
+    <strong>Densidade: {{ densidade | number:'1.1-1' }}</strong>
+    <strong>Adipometria (%G): {{ adipometriaScanner | number:'1.1-1' }}</strong>
+  </div>
+</section>

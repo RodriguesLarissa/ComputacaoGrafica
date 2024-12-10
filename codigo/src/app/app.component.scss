@@ -1,0 +1,75 @@
+
+.scanner {
+  display: flex;
+  height: 100%;
+}
+
+.parte-esquerda {
+  color: white;
+  font-size: 50px;
+  padding: 15px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  gap: 80px;
+
+  h1 {
+    align-self: center;
+    margin: 0px 10px;
+  }
+}
+
+.parte-direita {
+  h1 {
+    color: white;
+    font-size: 50px;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex: 1;
+  margin: 15px;
+  padding: 15px;
+  border: 10px solid #8566b0;
+
+  label, span, strong {
+    color: white;
+    font-size: 24px;
+  }
+
+  input {
+    border-radius: 10px;
+    height: 30px;
+  }
+
+  .radio-sexo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+button {
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 30px;
+  background-color: #8566b0;
+  color: white;
+}
